@@ -5,5 +5,3 @@ phases:
   build:
     commands:
       - "aws cloudformation validate-template --template-body file://bucket.yaml"
-    finally:
-      - echo DONE
