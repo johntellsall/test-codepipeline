@@ -1,8 +1,9 @@
+---
 version: 0.2
 
 phases:
   build:
     commands:
-      - echo BEER
+      - "aws cloudformation validate-template --template-body file://bucket.yaml"
     finally:
       - echo DONE
