@@ -3,6 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws cloudformation validate-template --template-body file://bucket.yaml
+      - "aws cloudformation validate-template --template-body file://bucket.yaml"
     finally:
       - echo DONE
