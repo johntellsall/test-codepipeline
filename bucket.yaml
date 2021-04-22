@@ -3,7 +3,7 @@ Parameters:
   BucketNameParameter:
     Type: String
     Description: S3 Bucket Name
-    Default: johnmitchell-bucket-316
+    Default: johnmitchell-bucket-1048
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
